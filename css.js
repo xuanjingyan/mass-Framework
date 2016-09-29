@@ -1,5 +1,5 @@
 //=========================================
-// 样式操作模块 v5 by 司徒正美
+// 样式操作模块 v5 by 司徒正美  我就看看
 //=========================================
 define("css", this.getComputedStyle ? ["node"] : ["css_fix"], function($) {
     var adapter = $.cssHooks || ($.cssHooks = {}),
